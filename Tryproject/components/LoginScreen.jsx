@@ -1,7 +1,7 @@
 // LoginScreen.js
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { setPhoneNumber } from '../actions/actions';
+import { setPhoneNumber } from '../actions/action';
 import { View, Text, TextInput, Button } from 'react-native';
 
 class LoginScreen extends Component {
