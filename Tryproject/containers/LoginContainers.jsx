@@ -1,22 +1,22 @@
-// LoginContainer.js
+// // LoginContainer.js
 
-import { connect } from 'react-redux';
-import { getUser } from '../actions/actions';
-import LoginComponent from '../components/LoginComponent';
+// import { connect } from 'react-redux';
+// import { getUser } from '../actions/actions';
+// import LoginComponent from '../components/LoginComponent';
 
-const mapStateToProps = state => ({
-  user: state.user,
-});
+// const mapStateToProps = state => ({
+//   user: state.user,
+// });
 
-const mapDispatchToProps = dispatch => ({
-  onLogin: user => {
-    dispatch(getUser(user));
-  },
-});
+// const mapDispatchToProps = dispatch => ({
+//   onLogin: user => {
+//     dispatch(getUser(user));
+//   },
+// });
 
-const LoginContainer = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(LoginComponent);
+// const LoginContainer = connect(
+//   mapStateToProps,
+//   mapDispatchToProps
+// )(LoginComponent);
 
-export default LoginContainer;
+// export default LoginContainer;

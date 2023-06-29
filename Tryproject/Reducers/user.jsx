@@ -1,17 +1,13 @@
-// user.js
-
-import { GET_USER } from '../actions/actionTypes';
-
 const initialState = {
-  user: null,
+  phoneNumber: '',
 };
 
 const userReducer = (state = initialState, action) => {
   switch (action.type) {
-    case GET_USER:
+    case 'SET_PHONE_NUMBER':
       return {
         ...state,
-        user: action.payload,
+        phoneNumber: action.payload,
       };
     default:
       return state;

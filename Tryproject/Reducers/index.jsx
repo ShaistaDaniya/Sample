@@ -1,11 +1,8 @@
-// index.js
-
 import { combineReducers } from 'redux';
-import user from './user';
-
+import userReducer from './user';
 
 const rootReducer = combineReducers({
-  user,
+  user: userReducer,
  
 });
 

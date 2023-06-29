@@ -1,8 +1,5 @@
 // actions.js
-
-import { GET_USER } from './actionTypes';
-
-export const getUser = user => ({
-  type: GET_USER,
-  payload: user,
+export const setPhoneNumber = phoneNumber => ({
+  type: 'SET_PHONE_NUMBER',
+  payload: phoneNumber,
 });
